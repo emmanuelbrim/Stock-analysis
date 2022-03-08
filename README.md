@@ -35,7 +35,7 @@ The results of the analysis showed that stocks performed well in 2017 than 2018.
 ### Refactored Code Analysis
 
 Though the initial code worked in generating the information for which it was created, it had to be refactored to increase its efficiency.
-The internal structure of the code was modified by the introduction of an array for totalVolumes, startingPrices and endingPrices. 
+ The internal structure of the code was modified by the introduction of an array for totalVolumes, startingPrices and endingPrices. 
 A tickerIndex variable was created to aid loop through all the arrays than loop through the entire worksheet to generate the outputs. 
 The final results of running this code indicated a slight change in the runtime of the code for both years.
 The runtimes for both 2017 and 2018 analysis was 2.41 seconds and 2.42 seconds respectively when the original code was executed. 
