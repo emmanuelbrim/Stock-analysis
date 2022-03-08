@@ -1,5 +1,5 @@
 # AN ANALYSIS OF GREEN STOCKS 
-_Analyzing data of green stocks from two periods to revail trends_
+_Analyzing green stocks data from two periods to revail trends_
 
 ## Overview of the Project
 Refactoring involves the act of modifying an exisiting code structure to make it efficient in execution and easy to read. The purpose of the project was to refactor the "All Stocks analysis" code so it can run at a more faster rate than before hence this was an attempt to reduce the runtime of the code.
@@ -16,7 +16,7 @@ If Cells(j, 1).Value = ticker And Cells(j - 1, 1).Value <> ticker Then
 
   startingPrice = Cells(j, 6).Value
   
-Finally Columns "B" and "C" on the active worksheet was filled with the Total Daily Volume and Returns for all the stocks respectively and based on the output of the total volume, startingprice and endingPrice variables.
+Finally, Columns "B" and "C" on the active worksheet was filled with the Total Daily Volume and Returns for all the stocks respectively and based on the output of the total volume, startingprice and endingPrice variables.
 
 _**code to output data per ticker_**
 
