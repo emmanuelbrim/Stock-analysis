@@ -1,5 +1,5 @@
 # AN ANALYSIS OF GREEN STOCKS 
-**_Analyzing data of green stocks from two periods to revail trends **
+_Analyzing data of green stocks from two periods to revail trends **
 
 ## Overview of the Project
 Refactoring involves the act of modifying an exisiting code structure to make it efficient in execution and easy to read. The purpose of the project was to refactor the "All Stocks analysis" code so it can run at a more faster rate than before hence this was an attempt to reduce the runtime of the code.
@@ -23,6 +23,7 @@ Cells(4 + i, 2).Value = totalVolume
 Cells(4 + i, 3).Value = endingPrice / startingPrice - 1
 
 The results of the analysis showed that stocks performed well in 2017 than in 2018. In 2017 the only stock that ill perfomed was "TERP" at a return of -7.2% whiles all but "ENPH" and "RUN" had negative returns in 2018.
+
 ### Refactored Code Analysis
 Though the initial code worked in generating the information for which it was created, it had to be refactored to increase its efficiency.
 The internal structure of the code was modified by the introduction of an array for totalVolumes, startingPrices and endingPrice. 
