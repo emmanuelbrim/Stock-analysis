@@ -1,5 +1,5 @@
 # AN ANALYSIS OF GREEN STOCKS 
-_Analyzing green stocks data from two periods to revail trends_
+_Analyzing Green Stocks Data From Two Periods To Revail Trends_
 
 ## Overview of the Project
 Refactoring involves the act of modifying an exisiting code structure to make it efficient in execution and easy to read. The purpose of the project was to refactor the "All Stocks analysis" code so it can run at a more faster rate than before hence this was an attempt to reduce the runtime of the code.
@@ -12,19 +12,19 @@ The code was developed by creating an array of tickers and asigning a value (0) 
 
 _**Example of code used to generate starting prices per ticker_**
 
-If Cells(j, 1).Value = ticker And Cells(j - 1, 1).Value <> ticker Then
+**If Cells(j, 1).Value = ticker And Cells(j - 1, 1).Value <> ticker Then**
 
-  startingPrice = Cells(j, 6).Value
+  **startingPrice = Cells(j, 6).Value**
   
 Finally, Columns "B" and "C" on the active worksheet was filled with the Total Daily Volume and Returns for all the stocks respectively and based on the output of the total volume, startingprice and endingPrice variables.
 
 _**code to output data per ticker_**
 
-Cells(4 + i, 1).Value = ticker
+**Cells(4 + i, 1).Value = ticke**r
 
-Cells(4 + i, 2).Value = totalVolume
+**Cells(4 + i, 2).Value = totalVolume**
 
-Cells(4 + i, 3).Value = endingPrice / startingPrice - 1
+**Cells(4 + i, 3).Value = endingPrice / startingPrice - 1**
 
 The results of the analysis showed that stocks performed well in 2017 than in 2018. In 2017 the only stock that ill perfomed was "TERP" at a return of -7.2% whiles all but "ENPH" and "RUN" had negative returns in 2018.
 
