@@ -36,7 +36,7 @@ A tickerIndex variable was also created to aid loop through all the arrays than 
 The final results of running this code indicated a slight change in the runtime of the code for both years.
 The runtimes for both 2017 and 2018 analysis was 2.41 seconds and 2.42 seconds respectively when the original code was executed. However the runtime improved by 2.36 seconds and 2.21 seconds when the refactored code was run.
 
-
+https://github.com/emmanuelbrim/Stock-analysis/blob/main/Resources%2FVBA_Challenge_2018.PNG
 
 
 
