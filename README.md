@@ -10,12 +10,14 @@ The original code (All Stocks Analysis) was created to provide the Total daily v
 The code was developed by creating an array of tickers and asigning a value (0) to the "total volume" variable. A nested For Loop was then created where the iterator; i read through the array of tickers as against the second iterator j  which read through the all rows in the worksheet. Conditionals or If - Then statements were added to generate and populate the total volume, startingPrice and endingPrice variables.
 
 _**Example of code used to generate starting prices per ticker_**
+
 If Cells(j, 1).Value = ticker And Cells(j - 1, 1).Value <> ticker Then
   startingPrice = Cells(j, 6).Value
   
 Finally Columns "B" and "C" on the active worksheet was filled with the Total Daily Volume and Returns for all the stocks respectively and based on the output of the total volume, startingprice and endingPrice variables.
 
 _**code to output data per ticker_**
+
 Cells(4 + i, 1).Value = ticker
 Cells(4 + i, 2).Value = totalVolume
 Cells(4 + i, 3).Value = endingPrice / startingPrice - 1
