@@ -1,5 +1,5 @@
 # AN ANALYSIS OF GREEN STOCKS 
-_Analyzing data of green stocks from two periods to revail trends **
+_Analyzing data of green stocks from two periods to revail trends_
 
 ## Overview of the Project
 Refactoring involves the act of modifying an exisiting code structure to make it efficient in execution and easy to read. The purpose of the project was to refactor the "All Stocks analysis" code so it can run at a more faster rate than before hence this was an attempt to reduce the runtime of the code.
