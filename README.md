@@ -6,6 +6,7 @@ _Analyzing Green Stocks Data From Two Periods To Revail Trends_
 ## Overview of the Project
 Refactoring involves the act of modifying an exisiting code structure to make it efficient in execution and easy to read. The purpose of the project was to refactor the "All Stocks analysis" VBA script so it can run at a more faster rate than before hence this was an attempt to reduce the runtime of the code.
 
+
 ## Results
 
 ### Original Code Analysis
@@ -47,6 +48,7 @@ However the runtime improved by 2.36 seconds and 2.21 seconds when the refactore
 
 ## Summary
 The advantages of refactoring code includes fewer bugs, fast execution and easy to read.
+
 The runtime of the original VBA script was improved after refactoring. 
 
 
