@@ -47,8 +47,8 @@ However the runtime improved by 2.36 seconds and 2.21 seconds when the refactore
 
 
 ## Summary
-- The advantages of refactoring code includes fewer bugs, fast execution and easy to read.
+- The advantages of refactoring code includes fewer bugs, faster execution and easy to read whiles the time involved in refactoring and the tendency of making mistakes serve as its cons.
 
-- The runtime of the original VBA script was improved after refactoring. 
+- Much time was invested in restructing the script though the runtime of the original VBA script was improved after refactoring. 
 
 
