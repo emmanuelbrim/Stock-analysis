@@ -38,10 +38,13 @@ The runtimes for both 2017 and 2018 analysis was 2.41 seconds and 2.42 seconds r
 However the runtime improved by 0.33 seconds and 0.32 seconds when the refactored code was run.
 
 _**Runtime after refactoring code_2017**
+
 ![Alt text](https://github.com/emmanuelbrim/Stock-analysis/blob/main/Resources/VBA_Challenge_2017.PNG)
 
 
+
 _**Runtime after refactoring code_2018**
+
 ![Alt text](https://github.com/emmanuelbrim/Stock-analysis/blob/main/Resources/VBA_Challenge_2018.PNG)
 
 
