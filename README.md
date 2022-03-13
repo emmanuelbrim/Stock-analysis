@@ -21,7 +21,9 @@ _**Example of code used to generate starting prices per ticker_**
 Finally, Columns "B" and "C" on the active worksheet was filled with the total daily volumes and returns for all the stocks respectively and based on the output of the total volume, startingprice and endingPrice variables.
 
 _**code to output data per ticker_**
+
 ![Alt text](https://github.com/emmanuelbrim/Stock-analysis/blob/main/Resources/Original%20Output%20codes.PNG)
+
 
 
 The results of the analysis showed that stocks performed well in 2017 than 2018. In 2017 the only stock that ill perfomed was "TERP" at a return of -7.2% whiles all but "ENPH" and "RUN" had negative returns in 2018.
@@ -35,10 +37,13 @@ The final results of running this code indicated a slight change in the runtime 
 The runtimes for both 2017 and 2018 analysis was 2.41 seconds and 2.42 seconds respectively when the original code was executed. 
 However the runtime improved by 2.36 seconds and 2.21 seconds when the refactored code was run.
 
+_**Example of code used to generate starting prices per ticker_**
 ![Alt text](https://github.com/emmanuelbrim/Stock-analysis/blob/main/Resources/VBA_Challenge_2017.PNG)
 
 
+_**Example of code used to generate starting prices per ticker_**
 ![Alt text](https://github.com/emmanuelbrim/Stock-analysis/blob/main/Resources/VBA_Challenge_2018.PNG)
+
 
 ## Summary
 - The advantages of refactoring code includes fewer bugs, faster execution and easy to read whiles the time involved in refactoring and the tendency of making mistakes serve as its cons.
