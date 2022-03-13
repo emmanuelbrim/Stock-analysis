@@ -33,15 +33,15 @@ The results of the analysis showed that stocks performed well in 2017 than 2018.
 Though the initial code worked in generating the information for which it was created, it had to be refactored to increase its efficiency.
  The internal structure of the code was modified by the introduction of an array for totalVolumes, startingPrices and endingPrices. 
 A tickerIndex variable was created to aid loop through all the arrays than loop through the entire worksheet to generate the outputs. 
-The final results of running this code indicated a slight change in the runtime of the code for both years.
+The final results of running this code indicated a significant change in the runtime of the code for both years.
 The runtimes for both 2017 and 2018 analysis was 2.41 seconds and 2.42 seconds respectively when the original code was executed. 
-However the runtime improved by 2.36 seconds and 2.21 seconds when the refactored code was run.
+However the runtime improved by 0.33 seconds and 0.32 seconds when the refactored code was run.
 
-_**Example of code used to generate starting prices per ticker_**
+_**Runtime after refactoring code_2017**
 ![Alt text](https://github.com/emmanuelbrim/Stock-analysis/blob/main/Resources/VBA_Challenge_2017.PNG)
 
 
-_**Example of code used to generate starting prices per ticker_**
+_**Runtime after refactoring code_2018**
 ![Alt text](https://github.com/emmanuelbrim/Stock-analysis/blob/main/Resources/VBA_Challenge_2018.PNG)
 
 
